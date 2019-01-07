@@ -51,6 +51,13 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
+    "babel": {
+      "presets": [
+       [
+        "@babel/preset-env"
+      ]
+     ]
+    },
     extend(config, ctx) {
 
     }
